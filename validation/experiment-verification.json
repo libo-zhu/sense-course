@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "cpu_core_scenarios": 4,
+  "cpu_core_test_conditions": 75,
+  "mps_extended_test_conditions": 82,
+  "mps_reload_predictions_identical": true,
+  "no_duplicate_rows_after_reevaluation": true,
+  "no_teacher_in_msh_deployment_weights": true,
+  "only_dependency_resolution_and_core_to_extended_append": "passed",
+  "config_mismatch_rejected": "ValueError confirmed by separate CLI command",
+  "unit_checks": "verify_experiments.py: metrics, singleton batch, exact CPU epoch resume, cosine checkpoint",
+  "purpose": "short-run implementation validation, not final training or paper accuracy reproduction"
+}

@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "datasets": {
+    "augsburg": {
+      "official_train_samples": 761,
+      "channels": {
+        "hsi": 180,
+        "sar": 4,
+        "dsm": 1
+      },
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "train_class_counts": [
+        146,
+        264,
+        21,
+        248,
+        52,
+        7,
+        23
+      ],
+      "official_test_samples": 77533,
+      "test_class_counts": [
+        13361,
+        30065,
+        3830,
+        26609,
+        523,
+        1638,
+        1507
+      ]
+    },
+    "houston2013": {
+      "official_train_samples": 2832,
+      "channels": {
+        "hsi": 144,
+        "ms": 8,
+        "lidar": 1
+      },
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "train_class_counts": [
+        198,
+        190,
+        192,
+        188,
+        186,
+        182,
+        196,
+        191,
+        193,
+        191,
+        181,
+        192,
+        184,
+        181,
+        187
+      ],
+      "official_test_samples": 12197,
+      "test_class_counts": [
+        1053,
+        1064,
+        505,
+        1056,
+        1056,
+        143,
+        1072,
+        1053,
+        1059,
+        1036,
+        1054,
+        1041,
+        285,
+        247,
+        473
+      ]
+    }
+  },
+  "augsburg_lazy_patch_equivalence": {
+    "checked_patches_per_modality": 761,
+    "maximum_absolute_float32_error": {
+      "hsi": 0.0,
+      "sar": 0.0,
+      "dsm": 0.0
+    }
+  },
+  "raw_mat_files": {
+    "data/raw/Datasets/HS-SAR-DSM Augsburg/data_SAR_HR.mat": [
+      [
+        "data_SAR_HR",
+        [
+          332,
+          485,
+          4
+        ],
+        "double"
+      ]
+    ],
+    "data/raw/Datasets/HS-SAR-DSM Augsburg/data_DSM.mat": [
+      [
+        "data_DSM",
+        [
+          332,
+          485
+        ],
+        "double"
+      ]
+    ],
+    "data/raw/Datasets/HS-SAR-DSM Augsburg/data_HS_LR.mat": [
+      [
+        "data_HS_LR",
+        [
+          332,
+          485,
+          180
+        ],
+        "double"
+      ]
+    ],
+    "data/raw/Datasets/HS-SAR-DSM Augsburg/TrainImage.mat": [
+      [
+        "TrainImage",
+        [
+          332,
+          485
+        ],
+        "double"
+      ]
+    ],
+    "data/raw/Datasets/HS-SAR-DSM Augsburg/TestImage.mat": [
+      [
+        "TestImage",
+        [
+          332,
+          485
+        ],
+        "single"
+      ]
+    ],
+    "data/raw/Datasets/HS-MS Houston2013/data_HS_LR.mat": [
+      [
+        "data_HS_LR",
+        [
+          349,
+          1905,
+          144
+        ],
+        "double"
+      ]
+    ],
+    "data/raw/Datasets/HS-MS Houston2013/data_MS_HR.mat": [
+      [
+        "data_MS_HR",
+        [
+          349,
+          1905,
+          8
+        ],
+        "double"
+      ]
+    ]
+  }
+}

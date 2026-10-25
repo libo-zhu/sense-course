@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "cpu_offline_demo": true,
+  "native_mps_offline_demo": "passed",
+  "native_mps_real_data_demo": "passed",
+  "uv_sync_locked_offline": true,
+  "mps_available": true,
+  "full_saved_msh_hsi_inference": {
+    "device": "mps",
+    "samples": 77533,
+    "oa": 0.8958894922162176,
+    "aa": 0.6625086228861358,
+    "matches_saved_formal_metrics": true
+  },
+  "cpu_epoch_resume_and_cosine_checkpoint": "verify_experiments.py passed",
+  "scope": "engineering and inference validation, no extra formal training seeds"
+}

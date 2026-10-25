@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/shicaiwei123/TGRS-MSHNet",
+  "commit": "c1b5f0409ca5e545b4f767070caab95fdd6fdc63",
+  "license": "MIT",
+  "snapshot": "See upstream commit and retained MIT license; original_jda.py in references/",
+  "local_patches": [
+    "loss/kd/jda.py: memory-efficient pairwise distance, finite bandwidth, reshape"
+  ]
+}

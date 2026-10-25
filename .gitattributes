@@ -1,0 +1,8 @@
+upstream/** linguist-vendored
+analysis/figures/** linguist-generated
+results/** linguist-generated
+docs/report-source/IEEEtran.cls linguist-vendored
+*.pt binary
+*.pdf binary
+*.pptx binary
+*.zip binary

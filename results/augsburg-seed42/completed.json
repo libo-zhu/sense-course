@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "quick": false,
+  "last_requested": [
+    "single-hsi",
+    "single-sar",
+    "single-dsm",
+    "early-concat",
+    "late-mean",
+    "teacher",
+    "jad-hsi",
+    "msh-hsi",
+    "jad-sar",
+    "msh-sar",
+    "jad-dsm",
+    "msh-dsm",
+    "moddrop",
+    "kl-only-hsi",
+    "mmd-only-hsi",
+    "msh-fixed-eta-at-test-hsi",
+    "kl-only-sar",
+    "mmd-only-sar",
+    "msh-fixed-eta-at-test-sar",
+    "kl-only-dsm",
+    "mmd-only-dsm",
+    "msh-fixed-eta-at-test-dsm"
+  ],
+  "evaluation_rows": 82
+}

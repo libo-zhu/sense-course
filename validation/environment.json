@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "python": "3.11.14 (main, Oct 31 2025, 23:15:22) [Clang 21.1.4 ]",
+  "machine": "arm64",
+  "versions": {
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "h5py": "3.12.1",
+    "mat73": "import OK",
+    "cv2": "4.10.0",
+    "sklearn": "1.6.1",
+    "matplotlib": "3.9.4",
+    "tqdm": "4.67.1",
+    "gdown": "5.2.0"
+  },
+  "mps_built": true,
+  "mps_available": true,
+  "mmd_original_equivalence": "value and gradients passed (float64, 1e-10)",
+  "mmd_zero_bandwidth": "finite loss and gradients passed"
+}

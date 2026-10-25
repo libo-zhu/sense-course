@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "files": 352,
+  "archive_parts": 953,
+  "pdfs": 3,
+  "forbidden_term_count": 6,
+  "matches": [],
+  "scope": "All tracked/public files, new nonignored files, recursively decompressed archives and extracted PDF text",
+  "private_named_submission_kept_local": true
+}

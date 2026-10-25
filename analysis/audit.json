@@ -1,0 +1,513 @@
+{
+  "status": "passed",
+  "formal_run": "./outputs/experiments/aug-hs-sar-dsm/seed-42",
+  "formal_inventory": [
+    {
+      "path": "./outputs/experiments/aug-hs-sar-dsm/seed-42",
+      "modalities": [
+        "hsi",
+        "sar",
+        "dsm"
+      ],
+      "seed": 42,
+      "completed": true
+    }
+  ],
+  "checked_prediction_files": 82,
+  "official_test_samples_each": 77533,
+  "checked_training_stages": 18,
+  "disjoint_train_validation_centers": true,
+  "all_predictions_match_raw_official_test_label_order": true,
+  "validation_centers_within_1px_of_train": 148,
+  "validation_centers_within_3px_of_train": 153,
+  "eta_prediction_comparisons": [
+    {
+      "modality": "hsi",
+      "noise_std": 0,
+      "different_predictions": 0,
+      "eta": 0.4999992847442627
+    },
+    {
+      "modality": "hsi",
+      "noise_std": 0.05,
+      "different_predictions": 0,
+      "eta": 0.4999992847442627
+    },
+    {
+      "modality": "hsi",
+      "noise_std": 0.1,
+      "different_predictions": 0,
+      "eta": 0.4999992847442627
+    },
+    {
+      "modality": "hsi",
+      "noise_std": 0.2,
+      "different_predictions": 0,
+      "eta": 0.4999992847442627
+    },
+    {
+      "modality": "sar",
+      "noise_std": 0,
+      "different_predictions": 0,
+      "eta": 0.4999910593032837
+    },
+    {
+      "modality": "sar",
+      "noise_std": 0.05,
+      "different_predictions": 1,
+      "eta": 0.4999910593032837
+    },
+    {
+      "modality": "sar",
+      "noise_std": 0.1,
+      "different_predictions": 0,
+      "eta": 0.4999910593032837
+    },
+    {
+      "modality": "sar",
+      "noise_std": 0.2,
+      "different_predictions": 0,
+      "eta": 0.4999910593032837
+    },
+    {
+      "modality": "dsm",
+      "noise_std": 0,
+      "different_predictions": 0,
+      "eta": 0.49997758865356445
+    },
+    {
+      "modality": "dsm",
+      "noise_std": 0.05,
+      "different_predictions": 0,
+      "eta": 0.49997758865356445
+    },
+    {
+      "modality": "dsm",
+      "noise_std": 0.1,
+      "different_predictions": 0,
+      "eta": 0.49997758865356445
+    },
+    {
+      "modality": "dsm",
+      "noise_std": 0.2,
+      "different_predictions": 0,
+      "eta": 0.49997758865356445
+    }
+  ],
+  "prediction_file_checksums": [
+    {
+      "case": "single-hsi__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "7b5b18a4d4cff826bdcec23312a1be159eaeeb439f528df8b9c4552584a3bf13"
+    },
+    {
+      "case": "single-hsi__keep-hsi__noise-0.05",
+      "samples": 77533,
+      "sha256": "6dd7c7ef24b3c4167165a5444de988364e5da7af2f807fc59b6741f7ff839242"
+    },
+    {
+      "case": "single-hsi__keep-hsi__noise-0.1",
+      "samples": 77533,
+      "sha256": "bc3f80babfc9f6d36789946e9a7b4da17811d98e5560b5868bf1cbe965603ed7"
+    },
+    {
+      "case": "single-hsi__keep-hsi__noise-0.2",
+      "samples": 77533,
+      "sha256": "282f53eb6f6a19ab7a7734cef5728ddfdaf875ad34bb7240572e8cd20e6808e7"
+    },
+    {
+      "case": "single-sar__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "1fc8fd2473fc4b50a8134a8a32998ac6ad2aea6263d986285d413a4251c79284"
+    },
+    {
+      "case": "single-sar__keep-sar__noise-0.05",
+      "samples": 77533,
+      "sha256": "91f350953546b42cdda44eea0e0af839cf32eeb989403c6c37426b05824aea04"
+    },
+    {
+      "case": "single-sar__keep-sar__noise-0.1",
+      "samples": 77533,
+      "sha256": "98b4a938a957152b1e9e8ee4331e5eb3fc9d6d606b2329d6657b4e33a4f98508"
+    },
+    {
+      "case": "single-sar__keep-sar__noise-0.2",
+      "samples": 77533,
+      "sha256": "78476dfea53251d9127b3c2118cc3fd36b406d7eee0eb87807fa56cde0fdb885"
+    },
+    {
+      "case": "single-dsm__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "20cfed6d6f4e0a8194b25a5b5d0193e17677fe9772758fc02351a6dad0060de1"
+    },
+    {
+      "case": "single-dsm__keep-dsm__noise-0.05",
+      "samples": 77533,
+      "sha256": "c0b84cc8022fa6ad2275c0fb0a7d183462b03041582ffb4d7cf4c01c5a4dd5c1"
+    },
+    {
+      "case": "single-dsm__keep-dsm__noise-0.1",
+      "samples": 77533,
+      "sha256": "26a347f4fac8f27c3ee4f5b447817ed8fe98d640cd917a2438f370c70dfd63b7"
+    },
+    {
+      "case": "single-dsm__keep-dsm__noise-0.2",
+      "samples": 77533,
+      "sha256": "40010f2d04898b7fc3cc2f8ee791b8e277d7bff76eac70537543632dc8db23f1"
+    },
+    {
+      "case": "early-concat__keep-hsi-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "7df4ebe732447fbbd43a3a19962ade9d00ff007de06054ccc6bd4526aea3c776"
+    },
+    {
+      "case": "early-concat__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "fcc0e85a8433c539a474c3f6681031fa49c3f24565f888a9b2302ce9c2499b7a"
+    },
+    {
+      "case": "early-concat__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "514197b67a11cca4be1c0d27037b9e1e0a5c0bab484e869aceb84d1737b1485b"
+    },
+    {
+      "case": "early-concat__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "093582841bb2cb00fb3473fc040da34ec1ce934038a788cd839142fb2253694d"
+    },
+    {
+      "case": "early-concat__keep-hsi-sar__noise-0",
+      "samples": 77533,
+      "sha256": "e8e5fc82eaf25a4bad2f5120ef7fd1dfdec17ed70eef4225f2dd5eaa94e09bdd"
+    },
+    {
+      "case": "early-concat__keep-hsi-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "2f7bb1bf2e62e8efbb53622cd3fb9aebbdfa40d206f790cbdfdc6762e450d48b"
+    },
+    {
+      "case": "early-concat__keep-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "e9d99164da23cf805ce34829de6099edbc9af7531026f352243becff963a1948"
+    },
+    {
+      "case": "late-mean__keep-hsi-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "42b7186642e685943fb32caa88ebed566b50e895829b6959f29e18e504ddbb3d"
+    },
+    {
+      "case": "late-mean__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "9e7d892ceeb266ada54611b0817759064addf87c016e7960b9997fa333401f0e"
+    },
+    {
+      "case": "late-mean__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "1d1e8cb898a0abc66e1c48d341535863063fa926bf16aa92dc7c72ff1ca5995b"
+    },
+    {
+      "case": "late-mean__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "e8b9efe01cc854601235897326d7e6123f0fbd6a58e8072aba6d019d72a953c8"
+    },
+    {
+      "case": "late-mean__keep-hsi-sar__noise-0",
+      "samples": 77533,
+      "sha256": "fbf2faa3a833241fa3a084dfc970f82ec9ac7f8aa25911f8abe4377d10c6a860"
+    },
+    {
+      "case": "late-mean__keep-hsi-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "40c3b275010b0d55c33ac37819a6bc5768fa2bf4e2437563e58109403eeba517"
+    },
+    {
+      "case": "late-mean__keep-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "24aaf36264e5a40e8ee73e1a875833f53aa148ccb32a90bcf0364ff2c5b8cc79"
+    },
+    {
+      "case": "teacher__keep-hsi-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "1161cb587d98148b54e874b4c94756f4a05aa432c9dee0f0c435bdcf03d5de08"
+    },
+    {
+      "case": "teacher__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "29c1dd8f6106bdc65709e60b0d4b2c9b92ff28fd6f4222400c79da934a7933ca"
+    },
+    {
+      "case": "teacher__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "3e13c4f901f7fa0ed85ee3dd65e19f9460509a2e8969c3dfaef378409fcb8cdc"
+    },
+    {
+      "case": "teacher__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "c7a5615e0f195f9ed76bdc37e415cebfd55e08cac1df6a6dba5dcd02dc59dd2b"
+    },
+    {
+      "case": "teacher__keep-hsi-sar__noise-0",
+      "samples": 77533,
+      "sha256": "84921addecdca02f38d5056d4ef81f88d39757cbcd51574cda5fe4bb982ed888"
+    },
+    {
+      "case": "teacher__keep-hsi-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "5ba5c64b1a350d665d319c00f692ce7c2434ab1acd7d4e5e24f7fde949e1e582"
+    },
+    {
+      "case": "teacher__keep-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "6f6b426dd78d498220f25e8f57c4587e5f00aa4a8a5369860124104a3088c6ba"
+    },
+    {
+      "case": "jad-hsi__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "af15b7250d039322ce24c6cf595abd73303e8cea18151b146d0aa3207d0d31c3"
+    },
+    {
+      "case": "jad-hsi__keep-hsi__noise-0.05",
+      "samples": 77533,
+      "sha256": "17f3d1aec5b0c9675147186dd6d716b2f5eeb85b57914fa883a3c9b1dca5319e"
+    },
+    {
+      "case": "jad-hsi__keep-hsi__noise-0.1",
+      "samples": 77533,
+      "sha256": "dd8d3eb527f369793df48d6a847c7a35a2b6c5b79a6a4a52aea411949ea6a2c2"
+    },
+    {
+      "case": "jad-hsi__keep-hsi__noise-0.2",
+      "samples": 77533,
+      "sha256": "c8fd3adcc7641f4ffbaba2a5bafbbcee3159ac67d1c0c17876d7fe8c06e16840"
+    },
+    {
+      "case": "msh-hsi__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "d0710ffac8b80b666e38c1dd0f434f9e4320123058c280954a6040cac514d397"
+    },
+    {
+      "case": "msh-hsi__keep-hsi__noise-0.05",
+      "samples": 77533,
+      "sha256": "5691b73220ad3384343ee410097b9cb3f2695a168ca11b7f21686609d3f807b4"
+    },
+    {
+      "case": "msh-hsi__keep-hsi__noise-0.1",
+      "samples": 77533,
+      "sha256": "273d7174749102e1483174a9f879453de22311122848f93fbd74294a2d0fedea"
+    },
+    {
+      "case": "msh-hsi__keep-hsi__noise-0.2",
+      "samples": 77533,
+      "sha256": "5945de7b66128d502e1285170e5605f7f7504c7d92e377194dd907ad1d4dfdcc"
+    },
+    {
+      "case": "jad-sar__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "98306182f0ef9d8848044257dc8b63c6b650301c72f0ddb5a8c0ee6f5557a12c"
+    },
+    {
+      "case": "jad-sar__keep-sar__noise-0.05",
+      "samples": 77533,
+      "sha256": "3712a167f7b75dbbfd1d1ec57374b198c12e7754b2782d36502e4fca8096bfe8"
+    },
+    {
+      "case": "jad-sar__keep-sar__noise-0.1",
+      "samples": 77533,
+      "sha256": "04c5d737bec66fe277285d8e754ffdeed8b90f28d1d5123139f7b4b1fb2f55a9"
+    },
+    {
+      "case": "jad-sar__keep-sar__noise-0.2",
+      "samples": 77533,
+      "sha256": "13f99e06f963dbb32559bb16e548187dae9ffddef7ffd00fd2c898f84bbfa144"
+    },
+    {
+      "case": "msh-sar__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "6ecf736e334c3f96c70c56ea06b9852904bcd1f0bbf2ee7b28809bebad60e367"
+    },
+    {
+      "case": "msh-sar__keep-sar__noise-0.05",
+      "samples": 77533,
+      "sha256": "2f4526f24a0985b2aa31395d5f724a06abb1149dde25dbfd497b209d404feb26"
+    },
+    {
+      "case": "msh-sar__keep-sar__noise-0.1",
+      "samples": 77533,
+      "sha256": "f16d86f47926ab5b066c4f957701b04fbb3efe55922042d62c21e4223b750937"
+    },
+    {
+      "case": "msh-sar__keep-sar__noise-0.2",
+      "samples": 77533,
+      "sha256": "5fec66f399ae96bf52dc0501cbcdf189fe032d4ba63dc0f45c63afb864bd67f6"
+    },
+    {
+      "case": "jad-dsm__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "cc1dcc1d2459ded8cef86efd4379c0615a52b636d095b119647b5784e93ec2bb"
+    },
+    {
+      "case": "jad-dsm__keep-dsm__noise-0.05",
+      "samples": 77533,
+      "sha256": "0dcba0a1f6573d013b76229bf403f1e62fdb1484f0f70731fd89075b6176b7c6"
+    },
+    {
+      "case": "jad-dsm__keep-dsm__noise-0.1",
+      "samples": 77533,
+      "sha256": "c50f580992703d54718321663fd9c9728e57687f5dca01c5bf4ae5864d2c8810"
+    },
+    {
+      "case": "jad-dsm__keep-dsm__noise-0.2",
+      "samples": 77533,
+      "sha256": "13c66cfa1ef412242b3cd8d1c8d7265bda19a8d30187e3ffc2b50b1a8edd1f0f"
+    },
+    {
+      "case": "msh-dsm__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "52eda71c549f1ea9709b49516ffa998678351638e5b2df19722b48254bcce9ba"
+    },
+    {
+      "case": "msh-dsm__keep-dsm__noise-0.05",
+      "samples": 77533,
+      "sha256": "b9ef6987c91eff48c45155242c0d2aa5600e3b142d3bfac197fdb3e2ae83e598"
+    },
+    {
+      "case": "msh-dsm__keep-dsm__noise-0.1",
+      "samples": 77533,
+      "sha256": "df6709d1450f8fa0e56a641d5dbf7b10b65c947c96fd5ade3dfc6ef5c39ddda6"
+    },
+    {
+      "case": "msh-dsm__keep-dsm__noise-0.2",
+      "samples": 77533,
+      "sha256": "623b3826165e49c935943fd1a0c8ba3c9fd1644f20ec02f541857136c87c4d45"
+    },
+    {
+      "case": "moddrop__keep-hsi-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "960fd20bbf65f23b4a751c7d93d926c4984e4f3cf4d0a2d1b7e9aacbe0dd4d53"
+    },
+    {
+      "case": "moddrop__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "92eab4f998ddb99999343fe35f8948fa6b3bea388778820ad39bb1edbf025c51"
+    },
+    {
+      "case": "moddrop__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "3ffd0031d3915b65e5f321e8d063a5075fc47eed4f7bd124eb2921e62d0658a2"
+    },
+    {
+      "case": "moddrop__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "226bb49b4cd6dbd34c7ca4481f6ca0e45871add375650b412e024b69e90e6ed9"
+    },
+    {
+      "case": "moddrop__keep-hsi-sar__noise-0",
+      "samples": 77533,
+      "sha256": "b6cb61077d9e612d7ad8934cd4536227c332a00fa3014f8076f73219fc2b752c"
+    },
+    {
+      "case": "moddrop__keep-hsi-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "f29e476c1b8018b396edd860657802b786597e5636776ab197a96703e0afd5e1"
+    },
+    {
+      "case": "moddrop__keep-sar-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "7c8bb5832834c78eae514fbab593540a71b15f155d0f2524aa9a01c7a54b94cb"
+    },
+    {
+      "case": "kl-only-hsi__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "25113458c6c437d8828135ecbd9bc009aa56feca86a51228f1395e98e95c2e2d"
+    },
+    {
+      "case": "mmd-only-hsi__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "f2c234b00a9fcda13341993e7c84f9b549969ef1a5e3cb0343f29a26c7c71c51"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-hsi__keep-hsi__noise-0",
+      "samples": 77533,
+      "sha256": "d0710ffac8b80b666e38c1dd0f434f9e4320123058c280954a6040cac514d397"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-hsi__keep-hsi__noise-0.05",
+      "samples": 77533,
+      "sha256": "5691b73220ad3384343ee410097b9cb3f2695a168ca11b7f21686609d3f807b4"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-hsi__keep-hsi__noise-0.1",
+      "samples": 77533,
+      "sha256": "273d7174749102e1483174a9f879453de22311122848f93fbd74294a2d0fedea"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-hsi__keep-hsi__noise-0.2",
+      "samples": 77533,
+      "sha256": "5945de7b66128d502e1285170e5605f7f7504c7d92e377194dd907ad1d4dfdcc"
+    },
+    {
+      "case": "kl-only-sar__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "377cb623b2c8f50182d46f461a3eb348a7dacba9f307c8f72a86cfd81344ea55"
+    },
+    {
+      "case": "mmd-only-sar__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "108689d3b7a3d9d07ef23f0018bec0b1222e657176ee484326cbd8963daa2990"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-sar__keep-sar__noise-0",
+      "samples": 77533,
+      "sha256": "6ecf736e334c3f96c70c56ea06b9852904bcd1f0bbf2ee7b28809bebad60e367"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-sar__keep-sar__noise-0.05",
+      "samples": 77533,
+      "sha256": "84546401ec2ca8b6335003f7be81e2832e0e51389952046564de4bdaa1685905"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-sar__keep-sar__noise-0.1",
+      "samples": 77533,
+      "sha256": "f16d86f47926ab5b066c4f957701b04fbb3efe55922042d62c21e4223b750937"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-sar__keep-sar__noise-0.2",
+      "samples": 77533,
+      "sha256": "5fec66f399ae96bf52dc0501cbcdf189fe032d4ba63dc0f45c63afb864bd67f6"
+    },
+    {
+      "case": "kl-only-dsm__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "c30365308a7e937234bd826b6f683a0e52d9541c76155dd22dfc0ffeaccf3170"
+    },
+    {
+      "case": "mmd-only-dsm__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "076a95ce68cb146e65e59ec2ebe42315c4b6d27a08f5f2c7636360db03e9c498"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-dsm__keep-dsm__noise-0",
+      "samples": 77533,
+      "sha256": "52eda71c549f1ea9709b49516ffa998678351638e5b2df19722b48254bcce9ba"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-dsm__keep-dsm__noise-0.05",
+      "samples": 77533,
+      "sha256": "b9ef6987c91eff48c45155242c0d2aa5600e3b142d3bfac197fdb3e2ae83e598"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-dsm__keep-dsm__noise-0.1",
+      "samples": 77533,
+      "sha256": "df6709d1450f8fa0e56a641d5dbf7b10b65c947c96fd5ade3dfc6ef5c39ddda6"
+    },
+    {
+      "case": "msh-fixed-eta-at-test-dsm__keep-dsm__noise-0.2",
+      "samples": 77533,
+      "sha256": "623b3826165e49c935943fd1a0c8ba3c9fd1644f20ec02f541857136c87c4d45"
+    }
+  ],
+  "paper_pdf_sha256": "ea8da8cf528285905dc1cb0e493d116ef11f49c7870ddfcba8d1bf0cc4195dea",
+  "paper_table": "VI",
+  "paper_page_one_based": 11,
+  "paper_values_method": "Visually transcribed from Table VI; prose not used when inconsistent"
+}

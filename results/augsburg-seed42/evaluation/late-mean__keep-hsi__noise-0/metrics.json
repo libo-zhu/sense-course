@@ -1,0 +1,105 @@
+{
+  "experiment": "late-mean",
+  "retained": [
+    "hsi"
+  ],
+  "missing": [
+    "sar",
+    "dsm"
+  ],
+  "noise_std": 0.0,
+  "seed": 42,
+  "scenario": "aug-hs-sar-dsm",
+  "quick": false,
+  "test_partition": "official_test",
+  "prediction_labels": "zero-based",
+  "evaluation_seconds_including_data": 7.758653290991788,
+  "parameters": 358794,
+  "oa": 0.34319580049785253,
+  "aa": 0.14285714285714285,
+  "kappa": 0.0,
+  "samples": 77533,
+  "support": [
+    13361,
+    30065,
+    3830,
+    26609,
+    523,
+    1638,
+    1507
+  ],
+  "per_class_recall": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      13361,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30065,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3830,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      26609,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      523,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1638,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1507,
+      0,
+      0,
+      0
+    ]
+  ]
+}

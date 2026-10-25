@@ -1,0 +1,25 @@
+{
+  "title": "Augsburg多传感器融合与模态缺失鲁棒性实验：MSH-Net复现与随机模态丢弃扩展",
+  "affiliation": "上海大学 未来技术学院",
+  "repository": "https://github.com/libo-zhu/sense-course",
+  "submission_date": "20261025",
+  "evidence": "Augsburg HSI+SAR+DSM, seed 42, 82 test conditions, 18 trained stages",
+  "contributors": [
+    {
+      "label": "成员A",
+      "rank": 1,
+      "responsibility": "项目统筹、代码与环境复核、实验协议及最终材料整合"
+    },
+    {
+      "label": "成员B",
+      "rank": 2,
+      "responsibility": "数据与基线核查、缺失及噪声实验分析、图表与结果复核"
+    },
+    {
+      "label": "成员C",
+      "rank": 3,
+      "responsibility": "文献与论文对照、消融分析、演示与复现文档整理"
+    }
+  ],
+  "privacy": "Public materials omit personal names and student IDs; named submission files remain local."
+}

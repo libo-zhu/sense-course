@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "report_pages": 6,
+  "report_class": "IEEEtran conference 10pt two columns",
+  "reference_count": 12,
+  "presentation_slides": 14,
+  "native_charts": 5,
+  "native_tables": 8,
+  "slide_images_embedded": true,
+  "data_conditions": 82,
+  "trained_stages": 18,
+  "teacher_in_deployment": false,
+  "code_checks": {
+    "status": "passed",
+    "cpu_offline_demo": true,
+    "native_mps_offline_demo": "passed",
+    "native_mps_real_data_demo": "passed",
+    "uv_sync_locked_offline": true,
+    "mps_available": true,
+    "full_saved_msh_hsi_inference": {
+      "device": "mps",
+      "samples": 77533,
+      "oa": 0.8958894922162176,
+      "aa": 0.6625086228861358,
+      "matches_saved_formal_metrics": true
+    },
+    "cpu_epoch_resume_and_cosine_checkpoint": "verify_experiments.py passed",
+    "scope": "engineering and inference validation, no extra formal training seeds"
+  },
+  "report_and_slides_visual_review": true,
+  "native_powerpoint_app_test": false,
+  "original_paper_pdf_redistributed": false,
+  "raw_dataset_redistributed": false,
+  "public_docs_anonymized": true,
+  "note": "Subset/synthetic demos are not benchmark performance; formal evidence is seed42 only"
+}

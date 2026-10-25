@@ -1,0 +1,16 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+data/
+/data
+outputs/
+results/**/predictions.csv
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.xdv
+*.synctex.gz
+node_modules/
+.DS_Store
